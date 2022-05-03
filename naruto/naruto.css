@@ -29,7 +29,7 @@ body {
     position: relative;
     top: 114px;
     left: 580px;
-    animation: bakaMov 1.5s infinite linear;
+    animation: bakaMov 1s infinite linear;
 }
 @keyframes bakaMov{
     0% {
@@ -40,7 +40,7 @@ body {
     }
 }
 .jump{
-    animation: jump 0.5s  linear;
+    animation: jump 0.3s  linear;
 }
 @keyframes jump{
     0%{
