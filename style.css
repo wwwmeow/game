@@ -102,16 +102,6 @@ header{
     color: #000;
 }
 
-footer{
-    text-align: center;
-    border: solid #96bcd6 5px;
-    border-radius:15px;
-    background-color: #96bcd6;
-    color: #000;
-    margin-top: 100px;
-    padding: 3px;
-    padding-left: 10px;
-  }
 body{
     background-color: rgb(187, 219, 240);
 }
