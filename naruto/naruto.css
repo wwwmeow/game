@@ -4,9 +4,7 @@
 	box-sizing:border-box;	
 }
 body {
-	font-family: 'Montserrat', sans-serif;
-    line-height: 1.4;
-    color: #181918;
+    background-color: #181918;
 
 }
 .game {
