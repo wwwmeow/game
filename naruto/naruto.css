@@ -47,13 +47,13 @@ body {
         top: 150px;
     }
     30%{
-        top: 110px;
+        top: 130px;
     }
     50%{
-        top: 50px;
+        top: 80px;
     }
     80%{
-        top: 110px;
+        top: 130px;
     }
     100%{
         top: 150px;
@@ -68,14 +68,3 @@ body {
     height: 200px;
     margin: 250px 0;
 }
-
-footer{
-    text-align: center;
-    border: solid #96bcd6 5px;
-    border-radius:15px;
-    background-color: #96bcd6;
-    color: #000;
-    margin-top: 100px;
-    padding: 3px;
-    padding-left: 10px;
-  }
