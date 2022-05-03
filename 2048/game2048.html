@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> 2048 </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="game2048.css">
+    <link rel="icon" href="img/cat1.jpg" sizes="32x32">
+</head>
+<body>
+	<div class="marg">
+		<p>score:<span id="score01"> 0</span></p>
+		<div class="main">
+			<div class="cell" id="c00"></div>
+			<div class="cell" id="c01"></div>
+			<div class="cell" id="c02"></div>
+			<div class="cell" id="c03"></div>
+
+			<div class="cell" id="c10"></div>
+			<div class="cell" id="c11"></div>
+			<div class="cell" id="c12"></div>
+			<div class="cell" id="c13"></div>
+			
+			<div class="cell" id="c20"></div>
+			<div class="cell" id="c21"></div>
+			<div class="cell" id="c22"></div>
+			<div class="cell" id="c23"></div>
+
+			<div class="cell" id="c30"></div>
+			<div class="cell" id="c31"></div>
+			<div class="cell" id="c32"></div>
+			<div class="cell" id="c33"></div>
+		</div>
+		<div class="gameover" id="gameover">
+			<div class="over">
+				<p>game over!</p>
+				<p>score:<span id="score02"></span></p>
+				<a href="javascript:game.start()">again</a>
+			</div>
+		</div>
+	</div>
+    <script src="game2048.js"></script>
+	
+</body>
+</html>

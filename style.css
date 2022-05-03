@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4;
+    color: #181918;
+}
+header{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+    height: 85px;
+
+    background-color: #96bcd6;
+}
+.head_inner{
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+}
+.head_inner .logo {
+    font-size: 14px;
+    color: #181918;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+.head_inner .logo a{
+    font-size: 14px;
+    color: #181918;
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.head_inner nav ul{
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+}
+.head_inner nav ul li{
+    top: 1px;
+    list-style-type: none;
+}
+.head_inner nav ul li a{
+    font-size: 14px;
+    color: #181918;
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.intro {
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+    height: 100vh;
+
+    background: url("../img/intro.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+.intro_inner {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.block {
+    width: 600px;
+    height: 100%;
+    max-width: 1000px;
+    max-height: 100%;
+    background: rgba(132, 158, 179, 0.733);
+    border-radius: 10px;
+    margin-left: 0 auto;
+    margin-top: 0 auto;
+    padding: 15px;
+}
+.block p{
+    
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.title {
+    color: #000;
+}
+
+footer{
+    text-align: center;
+    border: solid #96bcd6 5px;
+    border-radius:15px;
+    background-color: #96bcd6;
+    color: #000;
+    margin-top: 100px;
+    padding: 3px;
+    padding-left: 10px;
+  }
+body{
+    background-color: rgb(187, 219, 240);
+}
